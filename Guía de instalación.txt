@@ -1,0 +1,26 @@
+Magento 1.9 
+
+Conectar por FTP al directorio web de la aplicación Magento.
+En el direcotrio raíz, copiar la carpeta app presente en la carpeta KX1.9, acción que creará las carpetas, subcarpetas y archivos necesarios en Magento.
+En el panel de administración de Magento, acceder a Configuración > Gestión de caché y borrar (vaciar) todos los datos en caché.
+Acceder a Configuración > Sistema > Métodos de Pago y configurar el módulo KXPay, rellenando todos los campos obligatorios.
+Ya aparecerá la opción de pago en el entorno cliente (tienda).
+
+NOTA: Adicionalmente, debido a que para almacenar tarjetas se necesita el DNI del cliente (y no viene en el formulario base de registro) habrá que acceder a Configuración > Sistema > Configuración de clientes y marcar como requerido el número VAT (En caso de que la empresa solo venda en España, es recomendable cambiar la traducción por DNI, NIF o NIE).
+
+Magento 2.3
+Conectar por FTP al directorio web de la aplicación Magento.
+En el direcotrio raíz, copiar la carpeta app presente en la carpeta KX2.3, acción que creará las carpetas, subcarpetas y archivos necesarios en Magento.
+Conectar por SSH al directorio web de la aplicación Magento.
+Una vez en el directorio raíz, ejecutar los siguientes comandos:
+    php bin/magento setup:upgrade
+    php bin/magento setup:static-content:deploy
+    php bin/magento cache:clean
+    php bin/magento cache:flush
+Adicionalmente, bajo el caso de que sea necesaria una recompilación por incompatibilidad con algún otro módulo (sólo en caso de que el panel de administración muestre error) ejecutar el comando siguiente:
+    php bin/magento setup:di:compile
+Acceder en el panel de administración a Tiendas > Configuración.
+Acceder a métodos de pago y configurar el módulo de KXPay.
+Ya aparecerá la opción de pago en el entorno cliente (tienda).
+
+NOTA: Adicionalmente, debido a que para almacenar tarjetas se necesita el DNI del cliente (y no viene en el formulario base de registro) habrá que acceder a Tiendas > Configuración > Configuración de clientes y marcar como requerido el número VAT (En caso de que la empresa solo venda en España, es recomendable cambiar la traducción por DNI, NIF o NIE).

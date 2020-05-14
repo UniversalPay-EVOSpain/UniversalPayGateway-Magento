@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <payment>
+              <kxpay>
+                <active>1</active>
+                <title>Pagar mediante KXPay</title>
+                <order_status>processing</order_status>
+                <payment_action>true</payment_action>
+                <model>Kineox\Kxpay\Model\KxpayModel</model>
+            </kxpay>
+        </payment>
+    </default>
+</config>

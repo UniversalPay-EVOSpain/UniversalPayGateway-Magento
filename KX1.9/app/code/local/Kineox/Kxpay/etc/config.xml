@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<config>    
+    <modules>
+        <Kineox_Kxpay>
+            <version>1.0.0</version>
+        </Kineox_Kxpay>
+    </modules>
+	<global>
+        <helpers>
+            <kineox_kxpay>
+                <class>Kineox_Kxpay_Helper</class>
+            </kineox_kxpay>
+        </helpers>
+		<blocks>
+			<kxpay>
+				<class>Kineox_Kxpay_Block</class>
+			</kxpay>
+		</blocks>
+        <models>
+            <kxpay>
+                <class>Kineox_Kxpay_Model</class>
+            </kxpay>
+        </models>
+    </global>
+	<default>
+        <payment>
+            <kxpay>
+                <active>1</active>
+                <model>kxpay/paykxpay</model>
+                <order_status>processing</order_status>
+                <title>Pagar mediante KXPay</title>
+            </kxpay>			
+         </payment>
+    </default>
+    
+    <frontend>
+        <routers>
+            <kxpay>
+                <use>standard</use>
+                <args>
+                    <module>Kineox_Kxpay</module>
+                    <frontName>kxpay</frontName>
+                </args>
+            </kxpay>
+        </routers>  
+	    <layout>
+	        <updates>
+	            <kxpay module="Kineox_Kxpay">
+	                <file>kxpay.xml</file>
+	            </kxpay>
+	        </updates>
+	    </layout>
+    </frontend>
+    <adminhtml>
+        <layout>
+        <updates>
+            <basket>
+                <file>kxpay.xml</file>
+            </basket>
+        </updates>
+        </layout>
+    </adminhtml>
+</config>

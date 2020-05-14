@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Kineox_Kxpay>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Kineox_Kxpay>
+    </modules>
+</config> 

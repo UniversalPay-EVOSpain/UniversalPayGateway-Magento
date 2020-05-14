@@ -1,0 +1,26 @@
+<?php
+	switch ($this->getStatus()){
+		case 0:
+?>
+			<b>La forma en que intentas acceder al sistema de notificación es incorrecta.</b><br/>
+			Este mensaje lo puedes estar viendo por dos motivos:<br/><br/>
+			<ol>
+				<li>El hosting del comercio utiliza redirección internamente.</li>
+				<li>Estás intentando navegar por esta página. Esta pagina no está accesible para entrar directamente desde el navegador de internet.</li>
+			</ol>
+			Si has llegado aquí redirigido desde la pasarela de pago, contacta con el soporte del comercio.
+<?php
+		break;
+		case 1:
+?>
+			Se ha producido un error desconocido. <br/>
+			Por favor, contacta con el soporte del comercio. <br/>
+<?php
+		break;
+		case 2:
+?>
+			Se ha producido un error desconocido. <br/>
+			Por favor, contacta con el soporte del comercio. <br/>
+<?php
+		break;
+	}

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+	<kxpay_payment_form>
+		<reference name="content">
+			<block name="kxpay_paymentform" template="kxpay/paymentform.phtml" type="kxpay/paymentform" />
+		</reference>
+	</kxpay_payment_form>
+</layout>

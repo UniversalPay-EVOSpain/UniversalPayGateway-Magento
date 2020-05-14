@@ -1,0 +1,226 @@
+<?xml version="1.0"?>
+<config>
+   <sections>
+        <payment>
+            <groups>
+                <kxpay translate="label" module="paygate">
+                    <label>KXPay</label>
+					<comment><![CDATA[<img src="data:image/png;base64,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" height="50" width="120"/>]]></comment>
+                    <sort_order>657</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>0</show_in_store>
+                    <fields>
+						<merchant_identifier translate="label">
+                            <label>Identificador del comercio</label>
+                            <frontend_type>text</frontend_type>
+                            <validate>required-entry</validate>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </merchant_identifier>				
+						<secure_key translate="label">
+							<label>Clave del comercio</label>
+                            <frontend_type>text</frontend_type>
+                            <validate>required-entry</validate>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </secure_key>
+						<environment translate="label">
+							 <label>Entorno</label>
+							 <frontend_type>select</frontend_type>
+							 <source_model>adminhtml/system_config_source_environmentoptions</source_model>
+							 <sort_order>3</sort_order>
+							 <show_in_default>1</show_in_default>
+							 <show_in_website>1</show_in_website>
+							 <show_in_store>1</show_in_store>
+						</environment>
+						<p1c translate="label">
+                            <label>Permitir pago en 1 click</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>4</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </p1c>
+						<p1c_text translate="label">
+                            <label>Texto de condiciones de pago</label>
+                            <frontend_type>text</frontend_type>
+                            <validate>required-entry</validate>
+                            <sort_order>5</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </p1c_text>
+						<p1c_link translate="label">
+                            <label>Enlace de condiciones de pago</label>
+                            <frontend_type>text</frontend_type>
+                            <validate>required-entry</validate>
+                            <sort_order>6</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </p1c_link>
+						<style_back_boton translate="label">
+                            <label>Color del fondo del botón</label>
+                            <frontend_type>text</frontend_type>
+                            <validate>color</validate>
+                            <sort_order>7</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </style_back_boton>
+						<style_color_boton translate="label">
+                            <label>Color de las letras del botón</label>
+                            <frontend_type>text</frontend_type>
+                            <validate>color</validate>
+                            <sort_order>8</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </style_color_boton>
+						<style_back_frame translate="label">
+                            <label>Color del fondo del iframe</label>
+                            <frontend_type>text</frontend_type>
+                            <validate>color</validate>
+                            <sort_order>9</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </style_back_frame>
+						<style_color_label translate="label">
+                            <label>Color de las letras del iframe</label>
+                            <frontend_type>text</frontend_type>
+                            <validate>color</validate>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </style_color_label>
+						<require_cardholder translate="label">
+                            <label>Solicitar titular de tarjeta</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>11</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </require_cardholder>
+						<log translate="label">
+                            <label>Activar log</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>12</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </log>
+						<order_status translate="label">
+                            <label>Estado de pedido una vez pagado</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_order_status</source_model>
+                            <sort_order>13</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </order_status>
+						<card translate="label">
+                            <label>Pago con tarjeta de crédito y débito</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>14</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </card>
+						<sofort translate="label">
+                            <label>Pago con Sofort/Klarna, transferencias online</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>15</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </sofort>
+						<correos translate="label">
+                            <label>Pago en oficina de Correos</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>16</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </correos>
+						<trustly translate="label">
+                            <label>Pago con Trustly, transferencias online</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>17</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </trustly>
+						<biocryptology translate="label">
+                            <label>Pago seguro con Biocryptology</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>18</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </biocryptology>
+						<paypal translate="label">
+                            <label>Pago con Paypal</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>19</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </paypal>
+						<barzahlen translate="label">
+                            <label>Pago con Barzahlen (solo Alemania)</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </barzahlen>
+						<amazonpay translate="label">
+                            <label>Pago con Amazon Pay</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>21</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </amazonpay>
+						<gpay translate="label">
+                            <label>Pago con Google Pay</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>22</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </gpay>
+						<bizum translate="label">
+                            <label>Pago con Bizum</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>23</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </bizum>
+                    </fields>
+                </kxpay>
+            </groups>
+        </payment>
+    </sections>
+</config>
